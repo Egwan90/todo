@@ -38,5 +38,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t mfisya/todo:latest .
-          docker push mfisya/todo:latest
+          docker build -t egwan90/todo:latest .
+          docker push egwan90/todo:latest
